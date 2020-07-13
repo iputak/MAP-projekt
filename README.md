@@ -6,7 +6,13 @@ Projekt iz predmeta "Mobilne aplikacije"
 
 ## O aplikaciji
 
-Mobilna aplikacija "Taxivodstvo" sastoji se od stranica: početna, smjena, izvješća, vozači i novi vozač/ica.
+Mobilna aplikacija "Taxivodstvo" sastoji se od stranica: prijava, početna, smjena, izvješća, vozači i novi vozač/ica.
+Svi podatci su zapisani u realtime bazi Firebase platforme.
+
+### Prijava
+
+Prilikom pokretanja aplikacije, prikazuje se pozdravna slika s kratkim trajanjem. Nakon završetka se prikazuje forma za prijavu u koju se unose podatci.
+Nakon unosa, pritiskom na dugme "Prijava", provjeravaju se uneseni podatci s podatcima u bazi. Nakon potrde, otvara se 'Početna' stranica.
 
 ### Početna
 
@@ -23,6 +29,19 @@ Podatci o smjeni su:
 
 ### Izvješća
 
+Otvaranjem stranice 'Izvješća', prikazuje se graf podataka smjena upisanih u zadnjih tjedan dana. 
+Graf se sastoji od dana i ukupnog prometa koji su grafički obrađeni.
+
 ### Vozači 
 
+Na stranici 'Vozači' prikazani su svi vozači s osnovnim podatcima. Pritiskom na individualnog vozača, otvara se nova personalizirana stranica vozača s opširnijim podatcima o njemu koji su uneseni u formama stracice 'Novi vozač/ica'.
+
 ### Novi vozač/ica
+Na stranici 'Novi vozač/ica' se nalaze forme preko kojih se unose podatci o vozaču ili vozačici. 
+Podatci o vozaču/ici su: 
+* ime i prezime,
+* spol,
+* adresa,
+* kontakt broj i e-mail,
+* korisnički podatci za prijavu u sutav i 
+* odabir ranga - VOZAČ ili VODITELJ.
