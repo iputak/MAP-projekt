@@ -2,21 +2,21 @@
 Projekt iz predmeta "Mobilne aplikacije"
 
 ## Taxivodstvo 
-"Taxivodstvo" je ime aplikacije kojoj je ideja olakšati pračenje podataka vezane uz promet i vozače u taxi poduzećima.
+"Taxivodstvo" je ime aplikacije kojoj je ideja olakšati praćenje podataka vezane uz promet i vozače u taxi poduzećima.
 
 ## O aplikaciji
 
 Mobilna aplikacija "Taxivodstvo" sastoji se od stranica: prijava, početna, smjena, izvješća, vozači i novi vozač/ica.
-Svi podatci su zapisani u realtime bazi Firebase platforme.
+Svi podatci su zapisani u RealTime bazi Firebase platforme.
 
 ### Prijava
 
 Prilikom pokretanja aplikacije, prikazuje se pozdravna slika s kratkim trajanjem. Nakon završetka se prikazuje forma za prijavu u koju se unose podatci.
-Nakon unosa, pritiskom na dugme "Prijava", provjeravaju se uneseni podatci s podatcima u bazi. Nakon potrde, otvara se 'Početna' stranica.
+Nakon unosa, pritiskom na dugme "Prijava", provjeravaju se uneseni podatci s podatcima u bazi. Nakon potvrde, otvara se 'Početna' stranica.
 
 ### Početna
 
-Stranica 'Početna' se sastoji od pozdravne poruke, zapisom današnjih podataka te mogučnostima otvaranja kalkulatora i kalendara.
+Stranica 'Početna' se sastoji od pozdravne poruke, zapisom današnjih podataka te mogućnostima otvaranja kalkulatora i kalendara.
 
 ### Smjena
 
@@ -34,7 +34,7 @@ Graf se sastoji od dana i ukupnog prometa koji su grafički obrađeni.
 
 ### Vozači 
 
-Na stranici 'Vozači' prikazani su svi vozači s osnovnim podatcima. Pritiskom na individualnog vozača, otvara se nova personalizirana stranica vozača s opširnijim podatcima o njemu koji su uneseni u formama stracice 'Novi vozač/ica'.
+Na stranici 'Vozači' prikazani su svi vozači s osnovnim podatcima. Pritiskom na individualnog vozača, otvara se nova personalizirana stranica vozača s opširnijim podatcima o njemu koji su uneseni u formama stranice 'Novi vozač/ica'.
 
 ### Novi vozač/ica
 Na stranici 'Novi vozač/ica' se nalaze forme preko kojih se unose podatci o vozaču ili vozačici. 
@@ -43,5 +43,5 @@ Podatci o vozaču/ici su:
 * spol,
 * adresa,
 * kontakt broj i e-mail,
-* korisnički podatci za prijavu u sutav i 
+* korisnički podatci za prijavu u sustav i 
 * odabir ranga - VOZAČ ili VODITELJ.
